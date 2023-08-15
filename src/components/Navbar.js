@@ -7,10 +7,11 @@ export const Navbar = () => {
         className="container 
         mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="mr-5 hover:text-white">
-            jyl
-          </a>
+        <a
+          href="#about"
+          className="title-font font-medium text-white mb-4 md:mb-0 mr-5 hover:text-white"
+        >
+          jyl
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:border-1 md:border-gray-700 flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
